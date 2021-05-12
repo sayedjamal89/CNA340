@@ -1,19 +1,25 @@
-# Project Title
+# Installing Python.
 
-One Paragraph of project description goes here.
+This is the instruction how to download and install python in your computer.
 
 ## Getting Started
 
-These instructions will [do something] on your local machine for [development/experimentation/demo].
+These instructions will [help you to install python] on your local machine for [phoenixnap/how-to-install-python-3-windows].
 
 ### Prerequisites
 
-[Project] requires [software and version] to run, with [additional packages, libaries, or mods]. The commands below will [upgrade OS and install the prerequisites, or do something else]
+[installing python] requires [python 3.9 (64-bit)] to run, with [readme.Mdfile, stor file]. The commands below will [upgrade OS and install the prerequisites,]
 
 ```
 sudo apt update
 sudo apt upgrade
 sudo apt install package1 package2
+```
+## Installing
+Once download the program run the the following program
+
+```
+install package1
 ```
 
 ## Running
@@ -30,4 +36,4 @@ python cna_demo.py test.txt
 ```
 
 ## Thanks
-Provide thank yous and attributions here. If someone helped you, you looked at another repository, or another article, provide it here.
+I appreciate the time you spent and show me how to install the pyhon in my computer.
