@@ -1,8 +1,13 @@
-# Installing Python.
+# README.MD
+
+Check the code for result and see if there is any error.
 
 This is the instruction how to download and install python in your computer.
 
-## Getting Started
+## Getting Started  
+https://www.python.org/downloads/
+
+The link is to download the pythone to install in your computer.
 
 These instructions will [help you to install python] on your local machine for [phoenixnap/how-to-install-python-3-windows].
 
@@ -19,17 +24,26 @@ sudo apt install package1 package2
 Once download the program run the the following program
 
 ```
-install package1
-```
 
 ## Running
 Once installed you can run the program with the following command
 
 ```
-python cna_demo.py
-```
+cna_demo.py  
 
-Add any additional ways to run the program below
+def sumTo(aBound):
+    """ Return the sum of 1+2+3 ... n """
+
+    theSum  = 0
+    aNumber = 1
+    while aNumber <= aBound:
+        theSum = theSum + aNumber
+        aNumber = aNumber + 1
+    return theSum
+
+print(sumTo(4))
+
+print(sumTo(1000))
 
 ```
 python cna_demo.py test.txt
