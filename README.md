@@ -1,17 +1,14 @@
-# README.MD
-
-Check the code for result and see if there is any error.
+# readMe.md 
+Check the the code for result and see if there is any error. 
 
 This is the instruction how to download and install python in your computer.
 
-## Getting Started  
-https://www.python.org/downloads/
-
-The link is to download the pythone to install in your computer.
-
+## Getting Started
+ searc on google "https://www.python.org/downloads/ click on the link and follow instruction to install python.
+ 
 These instructions will [help you to install python] on your local machine for [phoenixnap/how-to-install-python-3-windows].
 
-### Prerequisites
+### Prerequisites 
 
 [installing python] requires [python 3.9 (64-bit)] to run, with [readme.Mdfile, stor file]. The commands below will [upgrade OS and install the prerequisites,]
 
@@ -21,32 +18,22 @@ sudo apt upgrade
 sudo apt install package1 package2
 ```
 ## Installing
-Once download the program run the the following program
+Once download the program run the following program
 
+```
+install package1
 ```
 
 ## Running
 Once installed you can run the program with the following command
 
 ```
-cna_demo.py  
+cna_demo.py
 
-def sumTo(aBound):
-    """ Return the sum of 1+2+3 ... n """
-
-    theSum  = 0
-    aNumber = 1
-    while aNumber <= aBound:
-        theSum = theSum + aNumber
-        aNumber = aNumber + 1
-    return theSum
-
-print(sumTo(4))
-
-print(sumTo(1000))
-
-```
-python cna_demo.py test.txt
+minutes = 645
+hours = minutes / 60
+print(hours)
+When i run this code it gives me the total hours from minutes which will be 10.75.
 ```
 
 ## Thanks
